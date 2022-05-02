@@ -92,3 +92,173 @@ Data: font-family: 'Goldman', cursive;
     width: 50%;
     text-align: right;
 }
+@media(max-width:912px)
+{
+    .container .Header
+    {
+        font-size: 700%;
+        padding-top: 30%;
+    }
+    .container .Subheader
+    {
+        font-size: 150%;
+    }
+    .container .Entry_area
+    {
+        margin-right: 2%;
+        margin-left: 2%;
+        margin-top: 10%;
+    }
+    .container .Entry_area input
+    {
+        font-size: 300%;
+        width: 200%;
+    }
+    .container .Entry_area button
+    {
+        width: 20%;
+    }
+    .Results
+    {
+        font-size: 300%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 5%;
+    }
+}
+@media(max-width:540px)
+{
+    .container .Header
+    {
+        font-size: 500%;
+        padding-top: 30%;
+    }
+    .container .Subheader
+    {
+        font-size: 150%;
+    }
+    .container .Entry_area
+    {
+        margin-right: 2%;
+        margin-left: 2%;
+        margin-top: 10%;
+    }
+    .container .Entry_area input
+    {
+        font-size: 300%;
+        width: 200%;
+    }
+    .container .Entry_area button
+    {
+        width: 20%;
+    }
+    .Results
+    {
+        font-size: 200%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 5%;
+    }
+}
+@media(max-width:414px)
+{
+    .container .Header
+    {
+        font-size: 400%;
+        padding-top: 30%;
+    }
+    .container .Subheader
+    {
+        font-size: 200%;
+    }
+    .container .Entry_area
+    {
+        margin-right: 2%;
+        margin-left: 2%;
+        margin-top: 10%;
+    }
+    .container .Entry_area input
+    {
+        font-size: 145%;
+        width: auto;
+    }
+    .container .Entry_area button
+    {
+        width: 100%;
+    }
+    .Results
+    {
+        font-size: 200%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 5%;
+    }
+}
+@media(max-width:393px)
+{
+    .container .Header
+    {
+        font-size: 300%;
+        padding-top: 30%;
+    }
+    .container .Subheader
+    {
+        font-size: 100%;
+    }
+    .container .Entry_area
+    {
+        margin-right: 2%;
+        margin-left: 2%;
+        margin-top: 10%;
+    }
+    .container .Entry_area input
+    {
+        font-size: 150%;
+        width: 100%;
+    }
+    .container .Entry_area button
+    {
+        width: 10%;
+    }
+    .Results
+    {
+        font-size: 150%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 5%;
+    }
+}
+@media(max-width:280px)
+{
+    .container .Header
+    {
+        font-size: 300%;
+        padding-top: 30%;
+    }
+    .container .Subheader
+    {
+        font-size: 100%;
+    }
+    .container .Entry_area
+    {
+        margin-right: 2%;
+        margin-left: 2%;
+        margin-top: 10%;
+    }
+    .container .Entry_area input
+    {
+        font-size: 150%;
+        width: 100%;
+    }
+    .container .Entry_area button
+    {
+        width: 10%;
+    }
+    .Results
+    {
+        font-size: 100%;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 5%;
+    }
+}
