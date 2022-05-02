@@ -1,7 +1,7 @@
 function start()
 {
     var city=document.getElementById('place').value;
-    var url="http://api.openweathermap.org/geo/1.0/direct?q="+city+"&appid=cf65d0c5f5cfffb9e7c92e59ec5e2e80";
+    var url="https://api.openweathermap.org/geo/1.0/direct?q="+city+"&appid=cf65d0c5f5cfffb9e7c92e59ec5e2e80";
     // console.log(url);
     fetch(url).then(
         (res)=>{
