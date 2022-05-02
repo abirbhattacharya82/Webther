@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Goldman&family=Major+Mono+Display&family=Raleway:wght@100&display=swap" rel="stylesheet">
+        <link rel="icon" href="assets/img/favicon.png">
+		<title>Webther</title>
+    </head>
+    <body>
+        <video src="assets/vid/website_background.mp4" id="back" autoplay muted loop></video>
+        <div class="container">
+            <div class="Header">
+                Webther
+            </div>
+            <div class="Subheader">
+                Easiest way to know everything about the climate of a place
+            </div>
+            <div class="Entry_area">
+                <input type="text" id="place" placeholder="enter name of the city"><button onclick="start()"><img src="assets/img/search.png"></button>
+            </div>
+            <div class="Results" id="Result">
+                <div class="Temperature">
+                    <span class="temp">Temperature</span> <span id="temp">--</span>
+                </div>
+                <div class="Feels_like">
+                    <span class="feels_like">Feels Like</span> <span id="f_like">--</span>
+                </div>
+                <div class="Humidity">
+                    <span class="humidity">Humidity</span> <span id="humidity">--</span>
+                </div>
+                <div class="Climate">
+                    <span class="climate">Climate</span> <span id="climate">------</span>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+    </html>
+</body>
+</html>

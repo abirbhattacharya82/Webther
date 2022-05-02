@@ -1,0 +1,94 @@
+/*
+Heading: font-family: 'Major Mono Display', monospace;
+Others: font-family: 'Raleway', sans-serif;
+Data: font-family: 'Goldman', cursive;
+*/
+*
+{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+#back
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+.container
+{
+    position: fixed;
+    background-color: rgba(0,0,0,0.6);
+    min-width: 100%;
+    min-height: 100%
+}
+.container .Header
+{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 700%;
+    text-align: center;
+    padding-top: 5%;
+}
+.container .Subheader
+{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 100%;
+    padding-bottom: 1%;
+}
+.container .Entry_area
+{
+    display: flex;
+    justify-content: center;
+}
+.container .Entry_area input
+{
+    background-color: rgba(138, 138, 138,0.5);
+    border: none;
+    font-family: 'Goldman', cursive;
+    font-size: 200%;
+    padding-left: 1%;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.container .Entry_area button
+{
+    width: 3%;
+    background-color:rgba(138, 138, 138,0.5);
+    border: none;
+    padding: 0.3%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.container .Entry_area button img
+{
+    width: 100%;
+}
+.Results
+{
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(0, 0, 0, 0.5);
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3%;
+    font-size: 200%;
+    padding: 1%;
+    border-radius: 10px;
+}
+.Results .Temperature,.Feels_like,.Humidity,.Climate
+{
+    display: flex;
+    justify-content: center;
+}
+.temp, .feels_like, .humidity, .climate
+{
+    width: 50%;
+    border-right: 1px solid white;
+}
+#temp, #f_like, #humidity, #climate
+{
+    width: 50%;
+    text-align: right;
+}
